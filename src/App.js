@@ -4,17 +4,17 @@ import Header from "./components/Header"
 import List from "./components/List"
 import Footer from "./components/Footer"
 
-import links from "./links.json"
+import linksData from "./links"
 
 
 
 const App = () => {
 
-  console.log(links)
+  console.log(linksData)
   return (
     <>
       <Header />
-      <List links={links}/>
+      <List links={linksData}/>
       <Footer />
     </>
   )

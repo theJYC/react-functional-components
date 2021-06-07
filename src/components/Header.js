@@ -5,10 +5,8 @@ const Header = () => {
         <>
             <header>
                 <h1>Modern-React</h1>
-
                 <p>React ecosystem is constantly evolving.</p>
-                <br />
-                <p>Here is a list of resources to be referred to in the future:</p>
+                <p>This is my effort to compile a list of reference materials to review:</p>
                 <br />
             </header>
         </>

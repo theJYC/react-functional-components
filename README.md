@@ -4,7 +4,7 @@ React is constantly evolving.
 
 In order to cement my growing knowledge of the React library, and keep up-to-date on latest trends and best practices, I created `Modern-React` as a reference material for the future. 
 
-At the time of creation, the data for `Modern-React` is initialised as a data.JSON composed of 7 objects in its array:
+At the time of creation, the data for `Modern-React` is initialised as a `links.js` file composed of 7 objects in the `linksData` array:
 
 1) React Context API - https://reactjs.org/docs/context.html
 2) Error Boundaries - https://reactjs.org/docs/error-boundaries.html
