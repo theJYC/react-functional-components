@@ -6,12 +6,45 @@ In order to cement my growing knowledge of the React library, and keep up-to-dat
 
 At the time of creation, the data for `Modern-React` is initialised as a `links.js` file composed of 7 objects in the `linksData` array:
 
-1) React Context API - https://reactjs.org/docs/context.html
-2) Error Boundaries - https://reactjs.org/docs/error-boundaries.html
-3) render props - https://reactjs.org/docs/render-props.html
-4) Higher Order Components - https://reactjs.org/docs/higher-order-components.html
-5) React Router - https://reacttraining.com/react-router/core/guides/philosophy
-6) React Hooks - https://reactjs.org/docs/hooks-intro.html
-7) React lazy, memo, and Suspense - https://reactjs.org/blog/2018/10/23/react-v-16-6.html 
+```
+const linksData = [
+    {
+        id : "1",
+        title : "Context API",
+        url : "https://reactjs.org/docs/context.html"
+    },
+    {
+        id : "2",
+        title : "Error Boundaries",
+        url : "https://reactjs.org/docs/error-boundaries"
+    },
+    {
+     ...
+    }
+]
+```
+
+If, in the future, there is a desire for a new reference material to be added to this list, the user will have to simply add the material in the above form (as an object), and React will render the new material onto the list:
+
+```
+const linksData = [
+    {
+        id : "1",
+        title : "Context API",
+        url : "https://reactjs.org/docs/context.html"
+    },
+    {
+        id : "2",
+        title : "Error Boundaries",
+        url : "https://reactjs.org/docs/error-boundaries"
+    },
+    {
+        id: "n",
+        title : "An Informative Topic",
+        url : "https://foobar.com"
+    }
+]
+```
+
 
 
