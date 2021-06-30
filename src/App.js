@@ -10,7 +10,6 @@ import linksData from "./links"
 
 const App = () => {
 
-  console.log(linksData)
   return (
     <>
       <Header />
