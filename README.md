@@ -1,10 +1,10 @@
-# Modern-React
+# React Functional Components
 
 React is constantly evolving. 
 
-In order to cement my growing knowledge of the React library, and keep up-to-date on latest trends and best practices, I created `Modern-React` as a reference material for the future. 
+In order to cement my growing knowledge of the React library, and keep up-to-date on latest trends and best practices, I created `react-functional-components` as a reference material for the future. 
 
-At the time of creation, the data for `Modern-React` is initialised as a `links.js` file composed of 7 objects in the `linksData` array:
+At the time of creation, the data for `react-functional-components` is initialised as a `links.js` file composed of 7 objects in the `linksData` array:
 
 ```
 const linksData = [
