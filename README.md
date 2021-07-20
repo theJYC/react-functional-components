@@ -6,7 +6,7 @@ In order to cement my growing knowledge of the React library, and keep up-to-dat
 
 At the time of creation, the data for `react-functional-components` is initialised as a `links.js` file composed of 7 objects in the `linksData` array:
 
-```
+```js
 const linksData = [
     {
         id : "1",
@@ -26,7 +26,7 @@ const linksData = [
 
 If, in the future, there is a desire for a new reference material to be added to this list, the user will have to simply add the material in the above form (as an object), and React will render the new material onto the list:
 
-```
+```js
 const linksData = [
     {
         id : "1",
